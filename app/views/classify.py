@@ -55,7 +55,7 @@ def render_classify():
             cols = st.columns(len(result.key_factors))
             for col, factor in zip(cols, result.key_factors):
                 col.markdown(
-                    f"<span style='background:#e8f4f8; padding:4px 10px;"
+                    f"<span style='background:#e8f4f8; color:#1a1a1a; padding:4px 10px;"
                     f"border-radius:12px; font-size:0.85em'>🔍 {factor}</span>",
                     unsafe_allow_html=True
                 )
