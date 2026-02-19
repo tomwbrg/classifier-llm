@@ -1,0 +1,33 @@
+domain: "Support Client"
+language: "fr"
+
+categories:
+  - id: urgent
+    name: "Réclamation urgente"
+    description: "Client bloqué, contrainte temporelle explicite ou implicite"
+    confusable_with: "non_urgent"
+
+  - id: non_urgent
+    name: "Réclamation non-urgente"
+    description: "Problème réel mais sans contrainte de délai immédiate"
+    confusable_with: "question"
+
+  - id: constructive
+    name: "Feedback constructif"
+    description: "Critique accompagnée d'une suggestion d'amélioration"
+    confusable_with: "negative"
+
+  - id: negative
+    name: "Critique négative"
+    description: "Mécontentement exprimé sans proposition de solution"
+    confusable_with: "constructive"
+
+  - id: question
+    name: "Question d'information"
+    description: "Demande de renseignement, pas de problème personnel sous-jacent"
+    confusable_with: "non_urgent"
+
+  - id: positive
+    name: "Compliment / Satisfaction"
+    description: "Retour positif, aucune action attendue"
+    confusable_with: "constructive"

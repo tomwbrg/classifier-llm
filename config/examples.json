@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "last_updated": "2026-02-19",
+  "examples": [
+    {
+      "text": "Mon compte est bloqué et je dois payer ma facture avant 18h !",
+      "category": "urgent",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Vous pouvez regarder ça quand vous avez le temps, mais j'ai une réunion dans 30 min et je n'arrive plus à me connecter",
+      "category": "urgent",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Mon mot de passe ne fonctionne plus, je n'arrive pas à me connecter",
+      "category": "non_urgent",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Je n'ai pas encore reçu ma commande passée il y a une semaine",
+      "category": "non_urgent",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Le bouton de paiement est difficile à trouver, peut-être le mettre en évidence ?",
+      "category": "constructive",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "L'interface est confuse, vous devriez simplifier le menu principal",
+      "category": "constructive",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "C'est inadmissible, je ne recommanderai jamais ce service",
+      "category": "negative",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Encore une erreur sur ma facture, vraiment décevant",
+      "category": "negative",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Quels sont vos horaires d'ouverture ?",
+      "category": "question",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Est-ce que vous livrez en Belgique ?",
+      "category": "question",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Excellent service, livraison rapide et produit conforme !",
+      "category": "positive",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Je suis très satisfait de mon achat, je reviendrai !",
+      "category": "positive",
+      "source": "manual",
+      "priority": 1
+    },
+    {
+      "text": "Encore une facture erronée ce mois-ci, c'est la 2ème fois",
+      "category": "negative",
+      "source": "feedback",
+      "priority": 2,
+      "added_at": "2026-02-19T14:54:16.536391"
+    }
+  ],
+  "changelog": [
+    {
+      "version": 2,
+      "date": "2026-02-19",
+      "changes": "Ajout de 1 exemple(s) depuis feedback",
+      "feedbacks_used": 3
+    }
+  ]
+}
