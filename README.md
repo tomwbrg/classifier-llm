@@ -87,15 +87,28 @@ ambigus, limitation inhérente à l'évaluation sans dataset humain.
 - Catégories à améliorer via feedback : non_urgent, negative (60%)
 
 ## Structure du repo
-
+```
 classifier-llm/
 ├── app/
 │   ├── main.py
-│   ├── core/           # classifier, prompt_builder, parser, llm_client
-│   ├── views/          # classify.py, history.py, admin.py
-│   ├── data/           # database.py, models.py
-│   ├── feedback/       # optimizer.py
-│   └── evaluation/     # generator.py, judge.py, evaluator.py
+│   ├── core/
+│   │   ├── classifier.py
+│   │   ├── prompt_builder.py
+│   │   ├── response_parser.py
+│   │   └── llm_client.py
+│   ├── views/
+│   │   ├── classify.py
+│   │   ├── history.py
+│   │   └── admin.py
+│   ├── data/
+│   │   ├── database.py
+│   │   └── models.py
+│   ├── feedback/
+│   │   └── optimizer.py
+│   └── evaluation/
+│       ├── generator.py
+│       ├── judge.py
+│       └── evaluator.py
 ├── config/
 │   ├── categories.yaml
 │   ├── system.yaml
@@ -103,3 +116,4 @@ classifier-llm/
 ├── .env.example
 ├── requirements.txt
 └── README.md
+```
