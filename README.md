@@ -89,7 +89,7 @@ Limite connue : les étiquettes générées peuvent être imparfaites sur les ca
 ambigus — limitation inhérente à l'évaluation sans dataset humain.
 
 ### Performance observée
-- Accuracy globale : ~83% sur 30 cas synthétiques
+- Accuracy globale : ~90% sur 30 cas synthétiques
 - Cas difficiles : ~80%
 - Catégories les plus robustes : question, constructive, positive (100%)
 - Catégories à améliorer via feedback : non_urgent, negative (60%)
