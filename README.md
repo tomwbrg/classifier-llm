@@ -28,7 +28,7 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Ouvrer `.env` et ajouter votre clé :
+Ouvrir `.env` et ajouter votre clé :
 ```
 ANTHROPIC_API_KEY=sk-ant-...
 ```
