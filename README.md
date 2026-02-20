@@ -61,9 +61,10 @@ Ouvre automatiquement http://localhost:8501
 
 ## Configuration
 
-Un seul fichier à modifier selon votre domaine :
+Deux fichiers à modifier selon votre domaine :
 ```
 config/categories.yaml  →  définir vos catégories et descriptions
+config/examples.json    →  2 exemples par catégorie (mis à jour automatiquement via le feedback loop)
 ```
 
 Paramètres système dans `config/system.yaml` (valeurs par défaut fonctionnelles).
