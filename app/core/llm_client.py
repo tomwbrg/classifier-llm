@@ -13,7 +13,7 @@ def call_llm(
     max_tokens: int = 400
 ) -> str:
     message = client.messages.create(
-        model="claude-haiku-4-5-20251001",
+        model="claude-haiku-4-5",
         max_tokens=max_tokens,
         temperature=temperature,
         system=system_prompt,
