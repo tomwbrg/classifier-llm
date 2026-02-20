@@ -54,8 +54,7 @@ def render_admin():
         if pending >= 10:
             st.success("Seuil atteint — optimisation recommandée")
         else:
-            st.info(f"Il faut {10 - pending} corrections supplémentaires pour optimiser")
-
+            st.info(f"Optimisation possible dès maintenant ({pending} feedbacks) — 10 recommandés pour un meilleur résultat")
         if st.button("Optimiser les exemples", type="primary", disabled=pending < 2):
             with st.spinner("Optimisation en cours..."):
                 from app.feedback.optimizer import run_optimizer
